@@ -7,6 +7,7 @@
  * @n: Size to character compare
  * Return: 0 both strings are equals
 */
+
 int strncomparer(char *s1,  char *s2, size_t n)
 {
 	while (n && *s1 && (*s1 == *s2))

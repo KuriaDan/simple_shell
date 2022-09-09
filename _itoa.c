@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * lennum - length of number
  * @n: int
  * Return: length
- */
+*/
+
 int lennum(int n)
 {
 	int len = 0;

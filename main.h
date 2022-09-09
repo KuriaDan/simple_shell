@@ -12,11 +12,13 @@
 #include <errno.h>
 #include <stdarg.h>
 extern char **environ;
+
 /**
 * struct builtin - struct that contains the builtin commands
 * @b_name: name of the command
 * @b_func: pointer to a function
 */
+
 typedef struct builtin
 {
 	char *b_name;

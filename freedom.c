@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * freedom - free the memory double or simple pointer
 * @n: 1 is Pointer, 2 is double pointer

@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * notty - executes command lines entered by pipe
  * @av: program name
  * Return: 0
 */
+
 int notty(char **av __attribute__((unused)))
 {
 	size_t bufsiz;

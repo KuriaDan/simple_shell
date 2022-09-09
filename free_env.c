@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * free_env - frees tokenized PATH directories and user's arguments
 * @env_args: tokenized environment directories

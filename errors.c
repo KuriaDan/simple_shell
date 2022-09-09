@@ -25,6 +25,7 @@ void error_msg(char **args)
  * @buffer: given command to execute
  * Return: Nothing
 */
+
 void error_badcommand(char **args, char *buffer)
 {
 	write(STDOUT_FILENO, "command not found\n", 18);

@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * _interactive - Creates a loop that execute command lines entered by tty
  * @av: argument from main
  * Return: Exit / Error Code
 */
+
 int _interactive(char **av __attribute__((unused)))
 {
 	size_t bufsiz;

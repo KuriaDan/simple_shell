@@ -6,6 +6,7 @@
  * @y: string to compare
  * Return: Nohing
 */
+
 int _compare(char *x, char *y)
 {
 	while (*x && *y)

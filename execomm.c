@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * execo - Executes a given command
  * @command: Given command
  * @args: command arguments
  * Return: Exit = 0 or Error Number
 */
+
 int execo(char *command, char **args)
 {
 	int status;

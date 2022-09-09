@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
 **find_builtins -  finds wheter user's command is a builtin
 ** @user_input: user's command
 **Return: pointer to function builtin or NULL if doesn't exists
 **/
+
 int (*find_builtins(char *user_input))()
 {
 	int counter = 0, stru_size = 0;

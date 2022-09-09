@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * env_func - Prints eviroment variables
  * Return: 0 on success
 */
+
 int env_func(void)
 {
 	int counter = 0, lenght = 0;

@@ -6,6 +6,7 @@
 */
 char **args_constructor(char *buffer)
 {
+
 	int size = 0;
 	char **user_command = NULL;
 
@@ -18,4 +19,5 @@ char **args_constructor(char *buffer)
 	}
 
 	return (user_command);
+
 }

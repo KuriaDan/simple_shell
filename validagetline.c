@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * validagetline - executes command lines entered by pipe
  * @buffer: program name
@@ -7,6 +8,7 @@
  * @env_args: Enviroment arguments
  * Return: 0
 */
+
 void validagetline(char *buffer, int len, char **args, char **env_args)
 {
 	if (len == EOF)

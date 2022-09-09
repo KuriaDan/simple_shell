@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * necklace_pearls - counts commands and options entered by user
  * @buffer: given command
  * Return: Number of arguments
 */
+
 int necklace_pearls(char *buffer)
 {
 	int pearls = 0;

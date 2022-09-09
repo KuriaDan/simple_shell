@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
  * ret_path_line - Finds the PATH variable from enviroment
  * Return: pointer position of the PATH variable
 */
-
 char *ret_path_line()
 {
 	char *path = NULL;
@@ -26,13 +24,11 @@ char *ret_path_line()
 	}
 	return (path);
 }
-
 /**
  * change_equal_sig - Change from a given strings = to : character
  * @str: given string
  * Return: Nohing
 */
-
 void change_equal_sig(char *str)
 {
 	char **ptr_str = NULL;
@@ -47,14 +43,12 @@ void change_equal_sig(char *str)
 	}
 	(*(*ptr_str + i)) = ':';
 }
-
 /**
  * _insert_path - Inserts the directory into given command
  * @args: given command
  * @path: tokenized path enviroment
  * Return: Full path command if exists or just a given command
 */
-
 char *_insert_path(char **args, char **path)
 {
 	char *cwd = getcwd(NULL, 0);
@@ -98,12 +92,10 @@ char *_insert_path(char **args, char **path)
 	dirpath = tmp2, freedom(1, cwd), cwd = NULL;
 	return (dirpath);
 }
-
 /**
  * getenvpath - Creates an array of pointers to the PATH directories
  * Return: Pointer to an array of tokenized directories
 */
-
 char **getenvpath()
 {
 	char *tmp = NULL;
@@ -118,13 +110,11 @@ char **getenvpath()
 	tmp =  NULL;
 	return (env_args);
 }
-
 /**
  * spaces_buster - Creates an array of pointers to the PATH directories
  * @buffer: given string
  * Return: Pointer to an array of tokenized directories
 */
-
 int spaces_buster(char *buffer)
 {
 	int i = 0;
